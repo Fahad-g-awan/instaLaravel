@@ -3,23 +3,6 @@
 @section('content')
 
 <div class="container">
-
-    <div class="mb-2 d-flex justify-content-end align-items-baseline">
-        <div class="text-center m-auto">
-                Follow someone to see there latest posts in this section.
-        </div>
-        <div>
-            <a class="border p-3 me-3 link-secondary text-decoration-none"
-                href="/profile/{{ Auth::user()->id }}">
-                My Profile
-            </a>
-        </div>
-        <a class="border p-3 link-secondary text-decoration-none" href="/p/all">
-            Scroll all latest Posts
-        </a>
-    </div>
-    <hr>
-   
     @foreach($posts as $post)
     
         <div class="row">

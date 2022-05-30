@@ -21,7 +21,6 @@
                                 class="text-dark text-decoration-none">
                                     {{ $post->user->username }}
                                 </a>
-                                <a href="#" class="small">Follow</a>
                             </strong>
                         </div>
                     </div>
